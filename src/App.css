@@ -12,8 +12,11 @@
   margin-left: auto;
   margin-right: auto;
   list-style: none;
+  scroll-behavior: smooth;
 }
-
+.body {
+  scroll-behavior: smooth;
+}
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -97,6 +100,7 @@
   border: none;
   border-radius: 2rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .btn-portfolio:hover {
   background: var(--color-tenary);

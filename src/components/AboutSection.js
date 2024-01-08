@@ -42,7 +42,12 @@ const AboutSection = () => {
           />
         </a>
       </div>
-      <button className="btn-portfolio">Portfolio</button>
+      <button
+        onClick={() => document.getElementById("portfolio").scrollIntoView()}
+        className="btn-portfolio"
+      >
+        Portfolio
+      </button>
     </section>
   );
 };
